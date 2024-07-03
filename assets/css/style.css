@@ -46,10 +46,6 @@
   margin-bottom: 23px;
 }
 
-.mt-categories {
-  margin-top: 10px;
-}
-
 .filter-sidebar {
   display: flex;
   align-items: center;
@@ -121,7 +117,7 @@ li {
   padding: 10px;
 }
 
-.card-product {
+.card-fut {
   max-height: 217px;
   max-width: 300px;
   border: 1px solid #bcbcbc;
@@ -135,29 +131,15 @@ li {
   filter: grayscale(100%);
 }
 
-.card-product:hover {
+.card-fut:hover {
   transform: scale(1.1);
   filter: grayscale(0%);
 }
 
-.img-card-car {
+.img-card-fut {
   width: 100%;
   height: 100%;
   object-fit: cover;
-}
-
-.padding-t {
-  padding-top: 1em;
-}
-
-.button-card {
-  width: 90px;
-  height: 35px;
-  border-radius: 5px;
-  border: none;
-  color: white;
-  background-color: #235696;
-  cursor: pointer;
 }
 
 .grid-main-father {
@@ -208,10 +190,6 @@ li {
 
   .grid-main {
     grid-template-columns: auto auto auto;
-  }
-
-  .button-card {
-    margin-bottom: 25px;
   }
 
   .father-sidebar-principal {
